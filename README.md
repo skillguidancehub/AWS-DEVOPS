@@ -1,6 +1,6 @@
 # AWS-DEVOPS
 <pre>
-
+"
 from pyspark.sql import SparkSession
 
 # Create Spark session
@@ -18,4 +18,5 @@ df.show()
 df.write.parquet("data.parquet", mode="overwrite")
 
 spark.stop()
+"
 </pre>
